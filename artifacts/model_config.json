@@ -1,0 +1,33 @@
+{
+    "model_name": "CatBoost",
+    "feature_columns": [
+        "location",
+        "area_type",
+        "availability_status",
+        "total_sqft",
+        "bhk",
+        "bath",
+        "balcony",
+        "area_per_bhk",
+        "bath_per_bhk",
+        "balcony_per_bhk"
+    ],
+    "categorical_features": [
+        "location",
+        "area_type",
+        "availability_status"
+    ],
+    "numerical_features": [
+        "total_sqft",
+        "bhk",
+        "bath",
+        "balcony",
+        "area_per_bhk",
+        "bath_per_bhk",
+        "balcony_per_bhk"
+    ],
+    "target_column": "price",
+    "target_unit": "INR Lakhs",
+    "nominal_interval_coverage": 0.9,
+    "conformal_quantile": 343.7398704192751
+}
