@@ -1,6 +1,6 @@
 # 🏡 GeoValue AI
 ### Intelligent House Price Prediction and Real Estate Analytics System
-
+LIVE - https://geovalue-ai-2026.streamlit.app/
 GeoValue AI is a machine learning-powered web application designed to estimate residential property listing prices and provide real estate analytics for Bengaluru, India.
 
 The system uses a trained CatBoost regression model to predict property prices based on property characteristics and locality information. It also provides interactive dashboards, similar property comparisons, and explainable AI visualizations using SHAP.
